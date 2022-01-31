@@ -1,0 +1,11 @@
+[package]
+name = "img-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+native-dialog = {version = "0.6.3", features = ["windows_dpi_awareness", "windows_visual_styles"]}
+image = "0.23.14"
+imageproc = "0.22.0"
